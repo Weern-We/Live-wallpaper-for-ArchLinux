@@ -13,4 +13,4 @@ if ! command -v xwinwrap &>/dev/null; then
     pamac build xwinwrap-git --no-confirm
 fi
 
-xwinwrap -ov -ni -fs -nf -b -- python3 particle_wallpaper.py
+xwinwrap -ni -b -fs -sp -st -g 1920x1080 -- python3 particle_wallpaper.py
